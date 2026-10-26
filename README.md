@@ -1,6 +1,6 @@
-# Happy 21st Birthday, Aaryan! 🎂✨
+# Happy 21st Birthday, Aryan! 🎂✨
 
-A beautiful, dreamy, interactive birthday website built with Next.js and Tailwind CSS, created as a heartfelt gift for Aaryan's 21st birthday on November 28th.
+A beautiful, dreamy, interactive birthday website built with Next.js and Tailwind CSS, created as a heartfelt gift for Aryan's 21st birthday on November 28th.
 
 ## 🎨 What's Inside
 
@@ -171,7 +171,7 @@ Birthday/
 This website was created with genuine care and affection for a very special platonic friend. It celebrates:
 - The beauty of long-distance friendships
 - The courage to express emotions authentically
-- The innocence and childlike joy that makes Aaryan special
+- The innocence and childlike joy that makes Aryan special
 - The hope for many more years of friendship
 
 ## 🐛 Troubleshooting
@@ -207,7 +207,7 @@ All fonts are loaded from Google Fonts and are free to use.
 
 ---
 
-**Made with a little extra love, just for Aaryan ♡**
+**Made with a little extra love, just for Aryan ♡**
 
 *Happy 21st Birthday! May this year bring you endless happiness, courage, and beautiful memories.*
 
