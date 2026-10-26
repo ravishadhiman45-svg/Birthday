@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-quicksand: var(--font-quicksand);
+  --font-cormorant: var(--font-cormorant);
+  --font-caveat: var(--font-caveat);
+  
+  /* Soft Birthday Pink Palette */
+  --color-soft-pink-bg: #F9C7D0;
+  --color-light-blush: #FADDE1;
+  --color-birthday-red: #D72F4B;
+  --color-deep-rose: #B92340;
+  --color-coral-pink: #F36F83;
+  --color-cream-white: #FFF5E9;
+  --color-dark-text: #3F3032;
+  --color-pink-shadow: #E9A0AC;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: linear-gradient(135deg, #FFF5E9 0%, #FADDE1 100%);
+  color: #3F3032;
+  font-family: var(--font-quicksand), system-ui, sans-serif;
+  overflow-x: hidden;
+  line-height: 1.7;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
