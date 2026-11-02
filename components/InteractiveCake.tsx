@@ -47,6 +47,7 @@ export default function InteractiveCake() {
 
     const timer = window.setTimeout(() => {
 
+
       setStep((current) => current);
 
     }, 4200);
@@ -784,194 +785,46 @@ export default function InteractiveCake() {
 
         }
 
-        /* A real knife silhouette: broad blade, pointed tip and a distinct handle. */
-
+        /* Transparent pink-handled knife image */
         .bc-knife {
-
           position: absolute;
-
           z-index: 12;
-
-          left: 50%;
-
-          top: -6px;
-
-          width: 54px;
-
-          height: 172px;
-
+          left: 58%;
+          top: 12px;
+          width: 190px;
+          height: auto;
+          display: block;
           opacity: 0;
-
           pointer-events: none;
-
-          transform: translateX(-50%) rotate(34deg) translateY(-90px);
-
-          transform-origin: 50% 25%;
-
+          object-fit: contain;
+          filter: drop-shadow(2px 5px 5px #3F303233);
+          transform: translateX(-50%) translateY(-95px) rotate(0deg);
+          transform-origin: 65% 65%;
         }
 
         .bc-knife.active {
-
           opacity: 1;
-
           animation: bc-knife-cut 1050ms cubic-bezier(.4,0,.3,1) forwards;
-
-        }
-
-        .bc-knife-blade {
-
-          position: relative;
-
-          width: 29px;
-
-          height: 105px;
-
-          margin: 0 auto;
-
-          border: 1px solid #8F9AA5;
-
-          border-radius: 8px 8px 3px 3px;
-
-          background: linear-gradient(
-
-            90deg,
-
-            #929EAA 0%,
-
-            #E0E6EB 18%,
-
-            #FFFFFF 43%,
-
-            #DCE3E8 72%,
-
-            #9AA6B1 100%
-
-          );
-
-          clip-path: polygon(9% 0, 91% 0, 91% 77%, 76% 91%, 50% 100%, 24% 91%, 9% 77%);
-
-          filter: drop-shadow(2px 3px 2px #3F303244);
-
-        }
-
-        .bc-knife-blade::before {
-
-          content: "";
-
-          position: absolute;
-
-          top: 8px;
-
-          left: 5px;
-
-          width: 3px;
-
-          height: 68px;
-
-          border-radius: 4px;
-
-          background: #FFFFFFCC;
-
-        }
-
-        .bc-knife-bolster {
-
-          position: relative;
-
-          z-index: 2;
-
-          width: 36px;
-
-          height: 11px;
-
-          margin: -3px auto 0;
-
-          border: 1px solid #8D5C50;
-
-          border-radius: 4px;
-
-          background: linear-gradient(90deg, #B92340, #F9C7D0, #B92340);
-
-        }
-
-        .bc-knife-handle {
-
-          position: relative;
-
-          width: 30px;
-
-          height: 57px;
-
-          margin: -1px auto 0;
-
-          border: 2px solid #7E1D31;
-
-          border-radius: 9px 9px 12px 12px;
-
-          background: linear-gradient(90deg, #8E1E35, #D72F4B 30%, #EC647A 52%, #B92340 85%);
-
-          box-shadow: inset 2px 0 3px #FFFFFF44, 2px 4px 4px #3F303244;
-
-        }
-
-        .bc-knife-handle::before {
-
-          content: "";
-
-          position: absolute;
-
-          top: 10px;
-
-          left: 5px;
-
-          width: 16px;
-
-          height: 3px;
-
-          border-radius: 3px;
-
-          background: #FFFFFF66;
-
-          box-shadow: 0 12px 0 #FFFFFF44, 0 24px 0 #FFFFFF33;
-
         }
 
         @keyframes bc-knife-cut {
-
           0% {
-
             opacity: 0;
-
-            transform: translateX(-50%) rotate(34deg) translateY(-90px);
-
+            transform: translateX(-50%) translateY(-95px) rotate(-5deg);
           }
-
           18% { opacity: 1; }
-
           45% {
-
             opacity: 1;
-
-            transform: translateX(-50%) rotate(12deg) translateY(8px);
-
+            transform: translateX(-50%) translateY(-8px) rotate(0deg);
           }
-
           72% {
-
             opacity: 1;
-
-            transform: translateX(-50%) rotate(5deg) translateY(75px);
-
+            transform: translateX(-50%) translateY(32px) rotate(3deg);
           }
-
           100% {
-
             opacity: 0;
-
-            transform: translateX(-50%) rotate(-12deg) translateY(145px);
-
+            transform: translateX(-50%) translateY(85px) rotate(7deg);
           }
-
         }
 
         .bc-button {
@@ -1467,15 +1320,13 @@ export default function InteractiveCake() {
 
           </div>
 
-          <div className={`bc-knife ${isCutting ? 'active' : ''}`}>
-
-            <div className="bc-knife-blade" />
-
-            <div className="bc-knife-bolster" />
-
-            <div className="bc-knife-handle" />
-
-          </div>
+          <img
+            className={`bc-knife ${isCutting ? 'active' : ''}`}
+            src="/birthday-knife-transparent.png"
+            alt=""
+            aria-hidden="true"
+            draggable={false}
+          />
 
         </div>
 

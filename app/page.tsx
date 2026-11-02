@@ -48,7 +48,7 @@ export default function Home() {
 
       <section id="cake" className="section-wrap cake-wrap">
         <div className="section-kicker">FIRST THINGS FIRST</div><h2 className="section-heading font-cormorant">make a little wish <span>♡</span></h2>
-        <p className="section-intro">Close your eyes for a second. Pick a wish. Then let’s make it official.</p>
+        <p className="section-intro">Close your eyes for a second. Make a wish.</p>
         <InteractiveCake/>
       </section>
 
@@ -59,13 +59,13 @@ export default function Home() {
           <p className="font-caveat mb-3 text-3xl text-[#B92340] md:text-4xl">a little thing i don't say enough...</p>
           <h2 className="font-cormorant mb-7 text-4xl text-[#3F3032] md:text-5xl">Dear Aryan,</h2>
           <div className="letter-body">
-            <p>Happy 21st birthday, you little human. ♡</p>
+            <p>Happy 21st birthday, you Idiot... ♡</p>
             <p>It’s funny how someone can become such an important part of your life even without ever meeting you in person. And somehow, you became one of those people for me.</p>
             <p>There’s something genuinely beautiful about the way you are — your innocence, your childish side, the way you express your emotions, and how you can talk about what you feel without pretending to be someone else.</p>
             <p>Maybe you don’t even realize it, but you’ve taught me something important: showing your emotions isn’t a weakness. It’s okay to care, to feel things deeply, and to be unapologetically yourself.</p>
             {letterOpen && <div className="letter-extra">
-              <p>I might not tell you this often, and I might not always know how to express it, but I’m genuinely glad I got to know you.</p>
-              <p>As you turn 21, I hope life is kind to you. I hope you find people who understand you, opportunities that excite you, dreams that come true, and reasons to smile even on ordinary days.</p>
+              <p>I might not tell you this often, and I might not always know how to express it, tune toh kitni bar bola hai ki mujh se baat kr ke acha lgta tujhe but I’m genuinely glad ki mujhe tere jesa dost mila...</p>
+              <p>As you turn 21, I hope life is kind to you. I hope you find people who understand you, opportunities that excite you, dreams jo hai tere itne sarein sb pure ho , and reasons to smile even on ordinary days.</p>
               <p>I hope you never feel you have to hide the soft, innocent, slightly childish and beautiful parts of yourself just to fit into this world. Growing up doesn’t mean you have to lose them.</p>
               <p>And selfishly, I hope that through all the changes and different chapters of life, we continue to be friends. I hope there are still random conversations, stupid jokes, little moments, and a friendship that stays even as life changes.</p>
               <p>We haven’t met in person yet, but I’m really glad our paths crossed. Thank you for being you, Aryan.</p>
@@ -74,7 +74,7 @@ export default function Home() {
           </div>
           <button className="letter-read-more" onClick={()=>setLetterOpen(v=>!v)} aria-expanded={letterOpen}>{letterOpen?'fold the letter back ↑':'there’s a little more… read the rest ↓'}</button>
           <p className="font-caveat mt-8 text-2xl text-[#B92340] md:text-3xl">— someone who’s really glad to have you as a friend ♡</p>
-          <div className="letter-bottomline"><span>WITH A LITTLE EXTRA LOVE</span><span>♡</span></div>
+          <div className="letter-bottomline"><span>WITH LOTS OF WISHES</span><span>♡</span></div>
         </article>
       </section>
 
@@ -109,7 +109,7 @@ export default function Home() {
           {finalNote&&<p className="final-note">No matter how much life changes, I hope you always have reasons to laugh, people who truly see you, and a friend cheering for you from her little corner of the world. ♡</p>}
         </div>
       </section>
-      <footer className="birthday-footer">a tiny website for a very special human <span>♡</span> made with care</footer>
+      <footer className="birthday-footer">a tiny website for nicest human <span>♡</span></footer>
     </main>}
 
     <style jsx global>{`

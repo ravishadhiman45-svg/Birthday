@@ -3,15 +3,15 @@
 import { useState } from 'react';
 
 const wishes = [
-  "May you find happiness in the smallest things.",
-  "May your hard work turn into something you're proud of.",
-  "May you always have the courage to express what you feel.",
-  "May you meet people who appreciate your genuine heart.",
-  "May your dreams become plans, and your plans become reality.",
-  "May you have the courage to start again whenever you need to.",
-  "May you never feel that being kind makes you weak.",
-  "May you laugh until your stomach hurts.",
-  "May your difficult days always have a little light in them.",
+  "Bhagwan ji tujhe thodi akal de, baaki jo hai usse kaam chala lenge.😅",
+  "Bhagwaan ji kre teri health sahi rhe tera backpain bhi sahi ho jaye 🤍",
+  "Tu life mein jo bhi sikhna chahta hai sikh paye...",
+  "Bhagwan ji kre ki tujhe life mein eese log mile who'll appreciate your genuine heart.🌸",
+  "Teri or gandhi ji ki aache wali dosti ho jaye , jeb mein hamesha colorful note bharein rhe 💵",
+  "khushhiii rhe hamesha , hasta muskurata hua.. 🐣",
+  "Bhagwan kre 2027 tk aachi naukri or chokri dono mile tujhe 🤭",
+  "Jedi vi countries ghumne tune sb ghume tu...",
+  "Teri kismat itni achhi ho ki problems bhi tujhe dekh ke wapas chali jaayein...",
   "May you discover places you've always wanted to visit.",
   "May you become more confident in yourself.",
   "May you have friendships that feel safe and effortless.",
@@ -23,7 +23,7 @@ const wishes = [
   "May your future surprise you in the most wonderful ways.",
   "May you have more peaceful days than stressful ones.",
   "May you keep the little things that make you, YOU.",
-  "And may this new chapter be one of the happiest yet."
+  "🥳 Happy 21st Birthday, birthday boy! Hamesha khush reh, apne dreams achieve kar, life ko enjoy kar...🎂"
 ];
 
 const icons = ['✨', '⭐', '💫', '🌟', '💝', '🎁', '🌈', '🦋', '🌸', '🍀'];
