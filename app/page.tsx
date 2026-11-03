@@ -61,10 +61,10 @@ export default function Home() {
           <div className="letter-body">
             <p>Happy 21st birthday, you Idiot... ♡</p>
             <p>It’s funny how someone can become such an important part of your life even without ever meeting you in person. And somehow, you became one of those people for me.</p>
-            <p>There’s something genuinely beautiful about the way you are — your innocence, your childish side, the way you express your emotions, and how you can talk about what you feel without pretending to be someone else.</p>
+            <p>There’s something genuinely beautiful about the way you are — your innocence, your childish side, the way you express your emotions, and how you can talk about what you feel without pretending to be someone else and try to understand other people feelings too.</p>
             <p>Maybe you don’t even realize it, but you’ve taught me something important: showing your emotions isn’t a weakness. It’s okay to care, to feel things deeply, and to be unapologetically yourself.</p>
             {letterOpen && <div className="letter-extra">
-              <p>I might not tell you this often, and I might not always know how to express it, tune toh kitni bar bola hai ki mujh se baat kr ke acha lgta tujhe but I’m genuinely glad ki mujhe tere jesa dost mila...</p>
+              <p>I might not tell you this often, and I might not always know how to express it, tune toh kitni bar bola hai ki mujh se baat kr ke acha lgta tujhe but I’m genuinely glad ki mujhe tu mila...</p>
               <p>As you turn 21, I hope life is kind to you. I hope you find people who understand you, opportunities that excite you, dreams jo hai tere itne sarein sb pure ho , and reasons to smile even on ordinary days.</p>
               <p>I hope you never feel you have to hide the soft, innocent, slightly childish and beautiful parts of yourself just to fit into this world. Growing up doesn’t mean you have to lose them.</p>
               <p>And selfishly, I hope that through all the changes and different chapters of life, we continue to be friends. I hope there are still random conversations, stupid jokes, little moments, and a friendship that stays even as life changes.</p>
@@ -73,8 +73,8 @@ export default function Home() {
             </div>}
           </div>
           <button className="letter-read-more" onClick={()=>setLetterOpen(v=>!v)} aria-expanded={letterOpen}>{letterOpen?'fold the letter back ↑':'there’s a little more… read the rest ↓'}</button>
-          <p className="font-caveat mt-8 text-2xl text-[#B92340] md:text-3xl">— someone who’s really glad to have you as a friend ♡</p>
-          <div className="letter-bottomline"><span>WITH LOTS OF WISHES</span><span>♡</span></div>
+          <p className="font-caveat mt-8 text-2xl text-[#B92340] md:text-3xl">— someone who’s really glad to have you ♡</p>
+          <div className="letter-bottomline"><span>WITH LOTS OF LOVE AND CARE</span><span>♡</span></div>
         </article>
       </section>
 
